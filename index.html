@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Auberge Romaine</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Georgia, "Times New Roman", serif;
+        background: #f7f0e6;
+        color: #2f251d;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      main {
+        width: min(720px, calc(100% - 40px));
+        padding: 48px 0;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(2.4rem, 8vw, 5rem);
+        font-weight: 500;
+      }
+
+      p {
+        margin: 0 auto;
+        max-width: 34rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      .status {
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 6px 10px;
+        border: 1px solid #9d7d56;
+        border-radius: 999px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 0.85rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="status">Testpagina</span>
+      <h1>Auberge Romaine</h1>
+      <p>
+        Deze testsite staat klaar op GitHub. Binnenkort komt hier de officiele
+        website van Auberge Romaine.
+      </p>
+    </main>
+  </body>
+</html>
